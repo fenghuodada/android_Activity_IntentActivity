@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical">
+
+
+    <Button
+        android:id="@+id/Activity_button_1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:text="显示模式"
+        android:onClick="DisplayMode"/>
+    <Button
+        android:id="@+id/Activity_button_2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:text="隐式模式"
+        android:onClick="ImplicitMode"/>
+
+    <EditText
+        android:id="@+id/Activity_eaditText_1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:maxLength="3"
+        android:inputType="number" />
+    <EditText
+        android:id="@+id/Activity_eaditText_2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:maxLength="3"
+        android:inputType="number" />
+
+    <Button
+        android:id="@+id/Activity_button_3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:text="回传数据"
+        android:onClick="BackhaulData"/>
+    <TextView
+        android:id="@+id/Activity_text_1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:gravity="center"
+        android:text="数据结果"/>
+</LinearLayout>
